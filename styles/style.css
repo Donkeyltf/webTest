@@ -1,0 +1,59 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Roboto';
+  /*background-color: #00539F;*/
+}
+
+#canvas {
+	border-color: #111;
+	border-width: 1px;
+	border-style: solid;
+	height: 600px;
+	width: 600px;
+	margin: 20px auto;
+}
+
+.table-cell {
+	background-color: #EEE;
+	height: 600px;
+	width: 600px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+}
+
+#canvas * {
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+
+.button {
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: none;
+	display: block;
+	background-color: #EEE;
+	font-size: 20px;
+	color: #777;
+	font-weight: bold;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.color-form {
+	font-size: 15px;
+	margin: 10px auto;
+	display: block;
+	text-align: center;
+}
+
+
